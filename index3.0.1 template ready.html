@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--
+    vsn2.3 8 slides wi title, some text, and backgrounds 
+
+    vsn2.4 slide02, first slide wi text / copy -- mins13 of the tutsYT
+
+    vsn2.5 slide03 wi cards -- mins16 of the tutsYT
+
+    vsn2.6.1 4th_slide -- mins19 of the tutsYT
+
+    vsn2.7.1 5th_slide larger images;   NOTE to get small photos, need to rewrite css back to 6.4rem from 100%
+
+    vsn2.8.1 5th slide ACTUAL; combine 5th and 4th, 100% width on images; ergo slide01 is the intro style, 02 are the 3 points, 03 is copy+image, 04 is three images, and 05 is back to BrdTrvrs' 5th slide -- mins22
+
+    vsn2.8.2 6th slide -- mins24:30 of the tutsYT
+
+    vsn2.8.3 7th slide -- mins28 of the tutsYT
+
+    vsn2.8.4 8th slide, conclusion -- mins30 of tutsYT
+
+    vsn3.0.1 template ready
+
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+
+    <!-- Webslides -->
+    <link rel="stylesheet" href="css/webslides.css">
+
+    <title>vsn3.0.1 template ready</title>
+
+</head>
+
+<body>
+
+    <main role="main">
+        <article id="webslides" class="horizontal">
+            <!-- slide01 -->
+            <section class="aligncenter">
+                Slide 01
+                <span class="background" style="background-image:url('images/background03.png')"></span>
+
+                <div class="wrap">
+                    <h1><strong>Slide 01</strong></h1>
+                    <p class="text-intro">first slide</p>
+                </div>
+
+            </section>
+
+            <!-- slide02 -->
+            <section>
+                <div class="wrap size-50 aligncenter">
+                    <h2><strong>Slide Header Goes Here</strong></h2>
+                    <p class="text-intro">sub-title copy goes here, under the header</p>
+                    <div class="bg-white shadow">
+                        <ul class="flexblock reasons">
+                            <li>
+                                <h2>primary point to make</h2>
+                                <p>this is where the primary point is made for this slide</p>
+                            </li>
+                            <li>
+                                <h2>secondary point to make</h2>
+                                <p>this is where the secondary point is made for this slide</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- slide03 -->
+            <section>
+                <div class="wrap">
+                    <div class="grid vertical-align">
+                        <div class="column">
+                            <h3><strong>3rd slide copy and image</strong></h3>
+                            <p class="text-intro">
+                                the third slide uses a grid system to incorp image
+                            </p>
+                            <p>
+                                this can include a mix of cards, images, copy etc.  This should be slightly de-emphasized vs the text-intro class of copy immediately under the header
+                            </p>
+                        </div>
+                        <div class="column">
+                            <img src="images/IMG_7173.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide04 -->
+            <section>
+                <div class="wrap">
+                    <h2>4th slide wi different form factor</h2>
+                    <ul class="flexblock features">
+                        <li>
+                            <div>
+                                <h2>slide's first point</h2>
+                                <img src="images/jacs_hdSht.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h2>slide's second point</h2>
+                                <img src="images/JASt_old_profile.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h2>slide's third point</h2>
+                                <img src="images/JASt_diag_hdSht_01.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+            <!-- slide05 22mins -->
+            <section>
+
+                <div class="wrap">
+                    <h2><strong>5th slide - LiveOps</strong></h2>
+                    <p>sections 1, 2, and 6</p>
+                    <ul class="flexblock gallery">
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="images/JASt_old_profile.png" alt="">
+                                    <figcaption>
+                                        <h2>1.x_hi-level</h2>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="images/jacs_hdSht.png" alt="">
+                                    <figcaption>
+                                        <h2>2.x_research</h2>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="images/JASt_diag_hdSht_01.png" alt="">
+                                    <figcaption>
+                                        <h2>6.x_production</h2>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </section>
+            <!-- slide06 mins24:30 -->
+            <section>
+                <div class="wrap">
+                    <h2><strong>6th Slide -- DevOps</strong></h2>
+                    <p>sections 7, 8, and 9</p>
+                    <div class="grid vertical-align">
+                        <div class="column">
+                            <h4><strong>7.x_development</strong></h4>
+                            <p>
+                                7.x_development's 4 in-game areas:  tools, front end, construct, and simulation (aka gameplay); and the 4 functional specializations of design, engineering, media-art, and media-sound.
+                            </p>
+                            <ul class="description">
+                                <li><a href="#">7.4_design</a></li>
+                                <li><a href="#">7.5_engineering</a></li>
+                                <li><a href="#">7.6, 7.7_media (art+sound)</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4><strong>8.x_quality</strong></h4>
+                            <p>
+                                8.x_quality has Dev-Support, QA, and Certification.
+                            </p>
+                            <ul class="description">
+                                <li><a href="#">8.1_dev-support</a></li>
+                                <li><a href="#">8.2_qa</a></li>
+                                <li><a href="#">8.3_certification</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4><strong>9.x_live</strong></h4>
+                            <p>
+                                9.x_live covers community and various functional areas including customer support, arc-prepping, etc
+                            </p>
+                            <ul class="description">
+                                <li><a href="#">9.1_live</a></li>
+                                <li><a href="#">9.2_episodic-content</a></li>
+                                <li><a href="#">9.3_community</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide07 28mins -->
+            <section class="aligncenter">
+
+                <div class="wrap">
+                    <h2><strong>7th slide</strong></h2>
+                    <p class="text-intro">
+                        another style of slide for presentations
+                    </p>
+                    <p>
+                        <a href="#" class="button">
+                            info here
+                        </a>
+                    </p>
+                </div>
+
+            </section>
+
+            <!-- slide08 mins30 -->
+            <section class="slide-bottom">
+                <div class="wrap">
+                    <div class="content-right text-serif">
+                        <h2><strong>Conclusion</strong></h2>
+                        <p>If you don't know, now you know</p>
+                        <p>
+                            <a href="https://twitter.com/grahamadder">@grahamadder</a>,<br>
+                            <a href="https://twitter.com/grahamadder">@grahamadder</a>, and <br>
+                            <a href="https://twitter.com/grahamadder">@grahamadder</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide00 original for reference -->
+            <section>
+                Slide 00
+                <span class="background" style="background-image:url('images/background03.png')"></span>
+
+                <div class="wrap">
+                    <h1><strong>Slide 00</strong></h1>
+                    <p class="text-intro">original template</p>
+                </div>
+
+            </section>
+
+        </article>
+    </main>
+
+        <script src="js/webslides.js"></script>
+        
+        <script>
+            window.ws = new WebSlides();
+        </script>
+
+</body>
+
+</html>
+
+<!--
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+
+-->
